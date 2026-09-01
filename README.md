@@ -4,7 +4,7 @@ This tool was created as a fix to a mismatch between hardware and Windows 10 dri
 
 Specifically, some Windows 10 drivers caused a colour space corruption (NV12/YUY2 mismatch) with my ASUS integrated webcam, resulting in a solid green camera feed across all applications (like Discord, Zoom, and the Windows Camera app).
 
-Because the Windows Media Foundation (WMF) pipeline is broken for this specific driver/hardware combination, this project acts as an ultra-low-latency "Micro-Bridge". It pulls the flawless raw video feed directly from the hardware using the older DirectShow API and pipes it into an invisible Virtual Camera. It works at 30fps 720p, which is the max the built in USB camera connection can handle, without windows own compression drivers.
+Because the Windows Media Foundation (WMF) pipeline is broken for this specific driver/hardware combination, this project acts as an ultra-low-latency "Micro-Bridge". It pulls the flawless raw video feed directly from the hardware using the older DirectShow API and pipes it into an invisible Virtual Camera. It works at 30fps 720p, which is the max the built in USB camera connection can handle without windows own compression drivers.
 
 ### Requirements
 - Python 3
