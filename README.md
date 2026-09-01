@@ -18,3 +18,8 @@ Run the **`register_virtual_camera.ps1`** as an admin. This anchors the virtual 
 2. A small console window will appear showing that the bridge is active. Leave it open.
 3. In Discord, Zoom, or your web browser, select **"Unity Video Capture"** as your webcam.
 4. When you are done, close the console window.
+
+### Acknowledgments & Dependencies
+This project uses [UnityCapture by schellingb](https://github.com/schellingb/UnityCapture) to act as the virtual camera driver. UnityCapture is an open-source project, and its binary files (under 2MB) have been directly included in this repository for ease of access and to guarantee the workaround remains completely self-contained and functional even if external links go down.
+
+
